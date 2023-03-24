@@ -7842,9 +7842,20 @@ textarea.form-control-lg {
 
 .bg-dark {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) ;
 }
-
+.bg-img{
+  background-image: 
+  /* top, transparent red */
+  linear-gradient(
+    rgba(0, 0, 0, 0.55), 
+    rgba(0, 0, 0, 0.55)
+  ),
+  /* your image */
+  url("/SUIT-SHOE/assets/img/pexels-pixabay-259950.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .bg-black {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;

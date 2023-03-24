@@ -1,7 +1,22 @@
-/*!
-* Start Bootstrap - Modern Business v5.0.6 (https://startbootstrap.com/template-overviews/modern-business)
-* Copyright 2013-2022 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-modern-business/blob/master/LICENSE)
-*/
-// This file is intentionally blank
-// Use this file to add JavaScript to your project
+const fechaNacimiento = document.getElementById("fechaNacimiento");
+const edadBox = document.getElementById("eBox");
+
+const calcularEdad = (fechaNacimiento) => {
+    const fechaActual = new Date();
+    const anoActual = parseInt(fechaActual.getFullYear());
+    const mesActual = parseInt(fechaActual.getMonth()) + 1;
+    const diaActual = parseInt(fechaActual.getDate());
+
+    const anoNacimiento = parseInt(String(fechaNacimiento).substring(0, 4));
+    const mesNacimiento = parseInt(String(fechaNacimiento).substring(5, 7));
+    const diaNacimiento = parseInt(String(fechaNacimiento).substring(8, 10));
+
+    let edad = anoActual - anoNacimiento;
+    if (mesActual < mesNacimiento) edad--;
+    else if (mesActual === mesNacimiento) if (diaActual < diaNacimiento) edad--;
+    return edad; };
+
+window.addEventListener('load', function () {
+ fechaNacimiento.addEventListener('change', function () {
+  if ( calcularEdad(this.value) < 13 ) edadBox.innerText = "0";
+  else edadBox.innerText = "1"; }); });
