@@ -1,0 +1,118 @@
+.tituloprecios {
+    display: block;
+    margin: 0 0 1em 0;
+    font-size: 2.1em !important;/*
+    -webkit-hyphens: auto;
+    hyphens: auto;*/
+}
+
+div#registroFormulario {
+    text-align: center;
+    margin: 34px auto 89px auto;
+    padding: 34px;
+    color: #204;
+}
+div#registroFormulario h1 {
+    font-size: 2.5em;
+}
+div#registroFormulario form {
+    display: block;
+    max-width: 610px;
+    min-width: 482px;
+    background-color: #eee;
+    border-radius: 13px;
+    padding: 34px 13px;
+    margin: 0 auto;
+}
+div#registroFormulario form p {
+    margin: 0 auto;
+    padding: 0;
+}
+div#registroFormulario form p label {
+    display: block;
+    -webkit-appearance: none;
+    margin: 5px auto;
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #000;
+}
+div#registroFormulario form p input,
+div#registroFormulario form p textarea {
+    -webkit-appearance: none;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.4em;
+    color: #fff;
+}
+div#registroFormulario form div.dato p input,
+div#registroFormulario form div.dato p select,
+div#registroFormulario form div.dato p textarea,
+div#registroFormulario form div.dato p#consegninstr {
+    width: 422px;
+}
+div#registroFormulario form div.dato {
+    margin: 21px auto 13px auto;
+    padding: 0;
+}
+div#registroFormulario form div.dato input[type=text],
+div#registroFormulario form div.dato input[type=email],
+div#registroFormulario form div.dato input[type=password],
+div#registroFormulario form div.dato input[type=date],
+div#registroFormulario form div.dato input[type=submit],
+div#registroFormulario form div.dato input[type=reset],
+div#registroFormulario form div.dato textarea {
+    border: none;
+    background: rgba(85,85,85, 0.9);
+}
+div#registroFormulario form div.dato input[type=submit],
+div#registroFormulario form div.dato input[type=reset] {
+    border-radius: 21px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+div#registroFormulario form div.envio input[type=submit] {
+    width: 322px;
+    font-weight: bold;
+    padding: 13px 0;
+    margin: 5px auto;
+}
+div#registroFormulario form div.envio input[type=reset] {
+    width: 233px;
+    font-weight: normal;
+    font-size: 1.2em;
+    margin: 34px auto 0 auto;
+}
+div#registroFormulario form div.envio {
+    margin: 42px auto;
+    padding: 5px;
+}
+label span {
+    font-size: 0.8em;
+}
+#eBox {
+    display: none;
+}
+div#registroFormulario form p#consegninstr {
+    display: block;
+    list-style: none;
+    text-align: center;
+    font-weight: normal;
+    font-size: 1em;
+    font-family: Sans-serif;
+    color: #A05B00;
+    margin-bottom: 1.2em;
+}
+input ~ span.error {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: Sans-serif;
+    color: #A05B00;
+    margin: 5px auto;
+}
