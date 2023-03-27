@@ -61,3 +61,18 @@ $(document).ready(function() {
 });
   
 
+$(document).ready(function() {
+    $("#sesionInicio").validate({
+        rules: {
+          email: {
+            required: true,
+            email: true }
+        },
+        messages : {
+          email: {
+            email: "Su nombre de usuario no tiene el formato de una dirección de correo. Debe tener el formato: abc@dominio.abc" }
+        }
+        });
+
+});
+

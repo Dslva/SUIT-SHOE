@@ -7852,7 +7852,7 @@ textarea.form-control-lg {
     rgba(0, 0, 0, 0.55)
   ),
   /* your image */
-  url("/SUIT-SHOE/assets/img/pexels-pixabay-259950.jpg");
+  url("../assets/img/pexels-pixabay-259950.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
