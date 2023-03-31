@@ -1,4 +1,4 @@
+var getInput = "admin";
 function iniciar_usuario(){
-    var getInput = "admin";
-   localStorage.setItem("storageName",getInput); 
+ localStorage.setItem("storageName",getInput); 
 }

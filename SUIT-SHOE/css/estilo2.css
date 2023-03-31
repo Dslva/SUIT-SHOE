@@ -128,12 +128,11 @@ div#panelControl {
     padding: 34px;
     color: #204;
 }
-
 div#panelControl h1 {
     font-size: 34px;
 }
 div#panelControlOpci {
-	display: flex;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: flex-start;
@@ -208,7 +207,106 @@ a#portadaTituloPlanes {
 
 
 /*----------- Sesión Inicio ------------*/
-a.sesIniRegLink {
+
+
+
+div#sesionInicioDivId {
+    text-align: center;
+    margin: 34px auto 89px auto;
+    padding: 34px;
+    color: #204;
+    }
+div#sesionInicioDivId h1 {
+    font-size: 2.5em;
+    }
+div#sesionInicioDivId > form#sesionInicio {
+    display: block;
+    max-width: 961px;
+    min-width: 482px;
+    background-color: #eee;
+    border-radius: 13px;
+    padding: 34px 13px;
+    margin: 0 auto;
+    text-align: center;
+    }
+div#sesionInicioDivId > form#sesionInicio > div.dato  {
+    margin: 34px auto;
+    padding: 0;
+    }
+div#sesionInicioDivId > form#sesionInicio > div.dato p {
+    padding: 0;
+    margin: 0;
+}
+div#sesionInicioDivId > form#sesionInicio > div.dato p label {
+    display: block;
+    -webkit-appearance: none;
+    margin: 3px auto;
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #000;
+    }
+
+div#sesionInicioDivId > form#sesionInicio > div.dato p input {
+    -webkit-appearance: none;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.4em;
+    color: #fff;
+    width: 422px;
+    border: none;
+    background: rgba(85,85,85, 0.9);
+}
+
+div#sesionInicioDivId > form#sesionInicio > div.datoIngreso p a,
+div#sesionInicioDivId > form#sesionInicio > div.datoIngreso p button {
+    display: inline-block;
+    font-size: 1.2em;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 21px;
+    margin: 8px auto;
+    text-decoration: none;
+    border: none;
+    font-weight: normal;
+}
+div#sesionInicioDivId > form#sesionInicio > div.datoIngreso p button {
+    background-color: #0b5ed7;
+}
+div#sesionInicioDivId > form#sesionInicio > div.datoIngreso p a.admIngrs {
+    background-color: #000;
+}
+div#sesionInicioDivId > form#sesionInicio > div.datoIngreso p a.registroBt {
+    background-color: #555;
+}
+
+
+div#horaReserva {
+    display: block;
+    text-align: center;
+}
+div#horaReserva a {
+    display: inline-block;
+    font-size: 1.2em;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 21px;
+    margin: 55px auto;
+    text-decoration: none;
+    border: none;
+    font-weight: normal;
+    background-color: #0b5ed7;
+}
+
+
+
+
+
+/*
+a.sesIniRegLink { 
     font-size: 21px;
     font-weight: bold;
     color: #000;
@@ -221,21 +319,7 @@ a.sesIniRegLink:hover {
 .sesIniRegLink2{
     font-size: 70% !important;
 
-}
-.p_inicio{
-    margin-top: 10px;
-}
-.div_btn_inicio_sesion{
-    display: flex;
-    margin-top: 10px;
-}
-.btn_inicio_sesion{
-    margin-left: 20%;
-    
-}
-.btn_inicio_sesion_admin{
-    margin-left: 29% !important;
-}
+}*/
 /*----------- servicio ------------*/
 .sect_btn_pricing{
     width: 20%;

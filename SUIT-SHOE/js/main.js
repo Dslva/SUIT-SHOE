@@ -31,7 +31,7 @@ $(document).ready(function() {
             number: "Please enter your age as a numerical value",
             min: "You must be at least 18 years old" },
           email: {
-            email: "El correo debe ser del formato: abc@dominio.abc" },
+            email: "El correo debe ser del formato: abc@dominio o abc@dominio.abc" },
           weight: {
             required: "People with age over 50 have to enter their weight",
             number: "Please enter your weight as a numerical value" }
@@ -70,7 +70,7 @@ $(document).ready(function() {
         },
         messages : {
           email: {
-            email: "Su nombre de usuario no tiene el formato de una dirección de correo. Debe tener el formato: abc@dominio.abc" }
+            email: "Su nombre de usuario no tiene el formato de una dirección de correo.<br/>Debe tener el formato: abc@dominio o abc@dominio.abc" }
         }
         });
 
